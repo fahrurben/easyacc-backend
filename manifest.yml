@@ -1,0 +1,8 @@
+---
+applications:
+- name: easyacc
+  memory: 1024M
+  random-route: true
+  instances: 1
+  buildpack: java_buildpack
+  path: target/web-app-easy-0.0.1-SNAPSHOT.jar
